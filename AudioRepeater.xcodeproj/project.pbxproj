@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31A8F961858EF36004F66E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31A8F951858EF36004F66E9 /* Cocoa.framework */; };
+		E31A8FA01858EF36004F66E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31A8F9E1858EF36004F66E9 /* InfoPlist.strings */; };
+		E31A8FA21858EF36004F66E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31A8FA11858EF36004F66E9 /* main.m */; };
+		E31A8FA61858EF36004F66E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E31A8FA41858EF36004F66E9 /* Credits.rtf */; };
+		E31A8FA91858EF36004F66E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31A8FA81858EF36004F66E9 /* AppDelegate.m */; };
+		E31A8FAC1858EF36004F66E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31A8FAA1858EF36004F66E9 /* MainMenu.xib */; };
+		E31A8FAE1858EF36004F66E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31A8FAD1858EF36004F66E9 /* Images.xcassets */; };
+		E31A8FB51858EF36004F66E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31A8FB41858EF36004F66E9 /* XCTest.framework */; };
+		E31A8FB61858EF36004F66E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31A8F951858EF36004F66E9 /* Cocoa.framework */; };
+		E31A8FBE1858EF36004F66E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31A8FBC1858EF36004F66E9 /* InfoPlist.strings */; };
+		E31A8FC01858EF36004F66E9 /* AudioRepeaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31A8FBF1858EF36004F66E9 /* AudioRepeaterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31A8FB71858EF36004F66E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31A8F8A1858EF36004F66E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31A8F911858EF36004F66E9;
+			remoteInfo = AudioRepeater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31A8F921858EF36004F66E9 /* AudioRepeater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRepeater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31A8F951858EF36004F66E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E31A8F981858EF36004F66E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E31A8F991858EF36004F66E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E31A8F9A1858EF36004F66E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E31A8F9D1858EF36004F66E9 /* AudioRepeater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioRepeater-Info.plist"; sourceTree = "<group>"; };
+		E31A8F9F1858EF36004F66E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E31A8FA11858EF36004F66E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E31A8FA31858EF36004F66E9 /* AudioRepeater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioRepeater-Prefix.pch"; sourceTree = "<group>"; };
+		E31A8FA51858EF36004F66E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E31A8FA71858EF36004F66E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E31A8FA81858EF36004F66E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E31A8FAB1858EF36004F66E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E31A8FAD1858EF36004F66E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E31A8FB31858EF36004F66E9 /* AudioRepeaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRepeaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31A8FB41858EF36004F66E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E31A8FBB1858EF36004F66E9 /* AudioRepeaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioRepeaterTests-Info.plist"; sourceTree = "<group>"; };
+		E31A8FBD1858EF36004F66E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E31A8FBF1858EF36004F66E9 /* AudioRepeaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioRepeaterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31A8F8F1858EF36004F66E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8F961858EF36004F66E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31A8FB01858EF36004F66E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8FB61858EF36004F66E9 /* Cocoa.framework in Frameworks */,
+				E31A8FB51858EF36004F66E9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31A8F891858EF36004F66E9 = {
+			isa = PBXGroup;
+			children = (
+				E31A8F9B1858EF36004F66E9 /* AudioRepeater */,
+				E31A8FB91858EF36004F66E9 /* AudioRepeaterTests */,
+				E31A8F941858EF36004F66E9 /* Frameworks */,
+				E31A8F931858EF36004F66E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31A8F931858EF36004F66E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8F921858EF36004F66E9 /* AudioRepeater.app */,
+				E31A8FB31858EF36004F66E9 /* AudioRepeaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31A8F941858EF36004F66E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8F951858EF36004F66E9 /* Cocoa.framework */,
+				E31A8FB41858EF36004F66E9 /* XCTest.framework */,
+				E31A8F971858EF36004F66E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31A8F971858EF36004F66E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8F981858EF36004F66E9 /* AppKit.framework */,
+				E31A8F991858EF36004F66E9 /* CoreData.framework */,
+				E31A8F9A1858EF36004F66E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E31A8F9B1858EF36004F66E9 /* AudioRepeater */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8FA71858EF36004F66E9 /* AppDelegate.h */,
+				E31A8FA81858EF36004F66E9 /* AppDelegate.m */,
+				E31A8FAA1858EF36004F66E9 /* MainMenu.xib */,
+				E31A8FAD1858EF36004F66E9 /* Images.xcassets */,
+				E31A8F9C1858EF36004F66E9 /* Supporting Files */,
+			);
+			path = AudioRepeater;
+			sourceTree = "<group>";
+		};
+		E31A8F9C1858EF36004F66E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8F9D1858EF36004F66E9 /* AudioRepeater-Info.plist */,
+				E31A8F9E1858EF36004F66E9 /* InfoPlist.strings */,
+				E31A8FA11858EF36004F66E9 /* main.m */,
+				E31A8FA31858EF36004F66E9 /* AudioRepeater-Prefix.pch */,
+				E31A8FA41858EF36004F66E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E31A8FB91858EF36004F66E9 /* AudioRepeaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8FBF1858EF36004F66E9 /* AudioRepeaterTests.m */,
+				E31A8FBA1858EF36004F66E9 /* Supporting Files */,
+			);
+			path = AudioRepeaterTests;
+			sourceTree = "<group>";
+		};
+		E31A8FBA1858EF36004F66E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31A8FBB1858EF36004F66E9 /* AudioRepeaterTests-Info.plist */,
+				E31A8FBC1858EF36004F66E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31A8F911858EF36004F66E9 /* AudioRepeater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31A8FC31858EF36004F66E9 /* Build configuration list for PBXNativeTarget "AudioRepeater" */;
+			buildPhases = (
+				E31A8F8E1858EF36004F66E9 /* Sources */,
+				E31A8F8F1858EF36004F66E9 /* Frameworks */,
+				E31A8F901858EF36004F66E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioRepeater;
+			productName = AudioRepeater;
+			productReference = E31A8F921858EF36004F66E9 /* AudioRepeater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31A8FB21858EF36004F66E9 /* AudioRepeaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31A8FC61858EF36004F66E9 /* Build configuration list for PBXNativeTarget "AudioRepeaterTests" */;
+			buildPhases = (
+				E31A8FAF1858EF36004F66E9 /* Sources */,
+				E31A8FB01858EF36004F66E9 /* Frameworks */,
+				E31A8FB11858EF36004F66E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31A8FB81858EF36004F66E9 /* PBXTargetDependency */,
+			);
+			name = AudioRepeaterTests;
+			productName = AudioRepeaterTests;
+			productReference = E31A8FB31858EF36004F66E9 /* AudioRepeaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31A8F8A1858EF36004F66E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zhou, Chao";
+				TargetAttributes = {
+					E31A8FB21858EF36004F66E9 = {
+						TestTargetID = E31A8F911858EF36004F66E9;
+					};
+				};
+			};
+			buildConfigurationList = E31A8F8D1858EF36004F66E9 /* Build configuration list for PBXProject "AudioRepeater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31A8F891858EF36004F66E9;
+			productRefGroup = E31A8F931858EF36004F66E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31A8F911858EF36004F66E9 /* AudioRepeater */,
+				E31A8FB21858EF36004F66E9 /* AudioRepeaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31A8F901858EF36004F66E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8FA01858EF36004F66E9 /* InfoPlist.strings in Resources */,
+				E31A8FAE1858EF36004F66E9 /* Images.xcassets in Resources */,
+				E31A8FA61858EF36004F66E9 /* Credits.rtf in Resources */,
+				E31A8FAC1858EF36004F66E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31A8FB11858EF36004F66E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8FBE1858EF36004F66E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31A8F8E1858EF36004F66E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8FA91858EF36004F66E9 /* AppDelegate.m in Sources */,
+				E31A8FA21858EF36004F66E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31A8FAF1858EF36004F66E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31A8FC01858EF36004F66E9 /* AudioRepeaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31A8FB81858EF36004F66E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31A8F911858EF36004F66E9 /* AudioRepeater */;
+			targetProxy = E31A8FB71858EF36004F66E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31A8F9E1858EF36004F66E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31A8F9F1858EF36004F66E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E31A8FA41858EF36004F66E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31A8FA51858EF36004F66E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E31A8FAA1858EF36004F66E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31A8FAB1858EF36004F66E9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E31A8FBC1858EF36004F66E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31A8FBD1858EF36004F66E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31A8FC11858EF36004F66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E31A8FC21858EF36004F66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E31A8FC41858EF36004F66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioRepeater/AudioRepeater-Prefix.pch";
+				INFOPLIST_FILE = "AudioRepeater/AudioRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E31A8FC51858EF36004F66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioRepeater/AudioRepeater-Prefix.pch";
+				INFOPLIST_FILE = "AudioRepeater/AudioRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E31A8FC71858EF36004F66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioRepeater.app/Contents/MacOS/AudioRepeater";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioRepeater/AudioRepeater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioRepeaterTests/AudioRepeaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E31A8FC81858EF36004F66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioRepeater.app/Contents/MacOS/AudioRepeater";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioRepeater/AudioRepeater-Prefix.pch";
+				INFOPLIST_FILE = "AudioRepeaterTests/AudioRepeaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31A8F8D1858EF36004F66E9 /* Build configuration list for PBXProject "AudioRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31A8FC11858EF36004F66E9 /* Debug */,
+				E31A8FC21858EF36004F66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31A8FC31858EF36004F66E9 /* Build configuration list for PBXNativeTarget "AudioRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31A8FC41858EF36004F66E9 /* Debug */,
+				E31A8FC51858EF36004F66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E31A8FC61858EF36004F66E9 /* Build configuration list for PBXNativeTarget "AudioRepeaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31A8FC71858EF36004F66E9 /* Debug */,
+				E31A8FC81858EF36004F66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31A8F8A1858EF36004F66E9 /* Project object */;
+}
